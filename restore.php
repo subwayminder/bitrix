@@ -7,8 +7,8 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT);
 @ini_set('pcre.backtrack_limit', 1024*1024);
 
 define('IP_LIMIT_DEFAULT', '#IP'.'_LIMIT_PLACEHOLDER#');
-define('IP_LIMIT', '94.25.229.194');
-define('INIT_TIMESTAMP', '1583409321');
+define('IP_LIMIT', '5.18.215.235');
+define('INIT_TIMESTAMP', '1583444318');
 
 if (getenv('BITRIX_VA_VER'))
 	define('VMBITRIX', 'defined');
@@ -3844,4 +3844,4 @@ function HumanSize($s)
 	}
 	return round($s,2).''.$ar[$i];
 }
-               
+                

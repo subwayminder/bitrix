@@ -808,7 +808,7 @@ if($arCurrentValues["SEF_MODE"]=="Y")
 	$smartBase = ($arCurrentValues["SEF_URL_TEMPLATES"]["section"]? $arCurrentValues["SEF_URL_TEMPLATES"]["section"]: "#SECTION_ID#/");
 	$arComponentParameters["PARAMETERS"]["SEF_MODE"]["smart_filter"] = array(
 		"NAME" => GetMessage("CP_BC_SEF_MODE_SMART_FILTER"),
-		"DEFAULT" => $smartBase."filter/#SMART_FILTER_PATH#/apply/",
+		"DEFAULT" => $smartBase."filter/#SMART_FILTER_PATH#/",
 		"VARIABLES" => array(
 			"SECTION_ID",
 			"SECTION_CODE",
